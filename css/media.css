@@ -1151,6 +1151,9 @@
     .card-bottom {
         max-width: 100%;
     }
+    .page-card + .catalog {
+        padding-bottom: 45px;
+    }
 }
 
 /* Small Devices, Tablets */
