@@ -1193,8 +1193,3 @@
 
 }
 
-@media (min-width: 2300px) {
-    .catalog-wrapper.active .slider-catalog {
-        padding-left: 0;
-    }
-}
