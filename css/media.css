@@ -67,8 +67,8 @@
     .btn-like {
         width: 36px;
         height: 36px;
-        top: 1px;
-        right: 1px;
+        top: 2px;
+        right: 2px;
     }
     .btn-like::after, .btn-like::before {
         width: 18px;
