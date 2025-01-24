@@ -1142,6 +1142,12 @@
         top: 0;
         left: 0;
     }
+    .catalog-wrapper.active .slider-catalog {
+        padding-left: 0;
+    }
+    .steps {
+        padding-bottom: 40px;
+    }
 }
 
 /* Small Devices, Tablets */
