@@ -1404,6 +1404,14 @@ input[type=number]
 	.footer__bottom a:hover {
 		color: #fff;
 	}
+	.prev.page-numbers:hover,
+	.next.page-numbers:hover {
+		color: #fff;
+		background: #333;
+	}
+	.tabs a:hover {
+		background: #D5B454;
+	}
 }
 
 @media (hover: none) {
@@ -1447,6 +1455,14 @@ input[type=number]
 	}
 	.footer__bottom a:active {
 		color: #fff;
+	}
+	.prev.page-numbers:active,
+	.next.page-numbers:active {
+		color: #fff;
+		background: #333;
+	}
+	.tabs a:active {
+		background: #D5B454;
 	}
 }
 
@@ -1628,7 +1644,6 @@ input[type=number]
 	justify-content: center;
 	background: #f5f5f5;
 }
-.tabs a:hover,
 .tabs .active a {
 	background: #D5B454;
 }
@@ -1996,11 +2011,6 @@ input[type=number]
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.prev.page-numbers:hover,
-.next.page-numbers:hover {
-	color: #fff;
-	background: #333;
 }
 .pager__numbers {
 	gap: 36px;
