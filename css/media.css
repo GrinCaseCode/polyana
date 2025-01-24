@@ -323,7 +323,7 @@
     }
     .quantity input {
         font-size: 15px;
-        flex: 0.9;
+        flex: 0.7;
     }
     .quantity.quantity_main .quantity-button {
         background-size: 22px auto;
@@ -452,6 +452,9 @@
     }
     .catalog-wrapper:not(.active) .item-catalog_unit .item-catalog__content .badges-wrap {
         margin-left: 19px;
+    }
+    .slider-catalog .slick-next {
+        right: 36px;
     }
 }
 
