@@ -568,6 +568,9 @@
     .page-article {
         padding-bottom: 70px;
     }
+    .modal-wrap {
+        width: 425px;
+    }
 }
 
 @media only screen and (max-width : 1500px) {
@@ -946,7 +949,7 @@
         right: 0;
     }
     .slider-catalog .slick-arrow {
-        top: 120px;
+        top: 110px;
         transform: none;
     }
     .head-section {
@@ -1485,6 +1488,18 @@
     }
     .page-article .item-news {
         margin-bottom: 20px;
+    }
+    .advantages .row.row_advantages > div {
+        margin-bottom: 15px;
+    }
+    .advantages .row.row_advantages {
+        margin-bottom: -15px;
+    }
+    .fancybox-slide {
+        padding: 15px;
+    }
+    .modal-wrap {
+        padding: 24px 18px;
     }
 }
 

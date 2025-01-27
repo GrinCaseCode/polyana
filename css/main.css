@@ -2644,7 +2644,7 @@ input[type=number]
 }
 .user-header__dropdown a:hover {
 	background: #fff;
-}
+} 
 .page-article {
 	padding-bottom: 90px;
 }
@@ -2703,4 +2703,31 @@ input[type=number]
 }
 .article-content a:hover {
 	border-color: transparent;
+}
+.modal-block {
+	display: none;
+	padding: 0;
+	background: transparent;
+}
+.modal-wrap {
+	width: 456px;
+	padding: 24px 36px;
+	border-radius: 12px;
+	max-width: 100%;
+	margin: 0 auto;
+	background: #edebe9;
+}
+.modal-wrap .btn-main {
+	margin-top: 10px;
+	width: 100%;
+}
+.fancybox-bg {
+	opacity: 1 !important;
+	background: rgba(51, 51, 51, 0.5);
+}
+.modal-wrap .checkbox {
+	margin-top: 22px;
+}
+.modal-wrap .title-form {
+	margin-bottom: 24px;
 }
