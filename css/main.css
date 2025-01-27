@@ -2711,7 +2711,7 @@ input[type=number]
 }
 .modal-wrap {
 	width: 456px;
-	padding: 24px 36px;
+	padding: 24px 36px; 
 	border-radius: 12px;
 	max-width: 100%;
 	margin: 0 auto;

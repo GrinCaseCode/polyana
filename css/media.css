@@ -1469,6 +1469,7 @@
         opacity: 1;
         transition: initial;
         display: none;
+        z-index: 10;
     }
     .article-content {
         font-size: 14px;
@@ -1490,7 +1491,7 @@
         margin-bottom: 20px;
     }
     .advantages .row.row_advantages > div {
-        margin-bottom: 15px;
+        margin-bottom: 15px; 
     }
     .advantages .row.row_advantages {
         margin-bottom: -15px;
