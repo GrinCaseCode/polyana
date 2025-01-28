@@ -1684,7 +1684,7 @@
         width: 235px;
     }
     .item-catalog__title {
-        font-size: 14px;
+        font-size: 14px; 
     }
     .row.row_personal > div {
         margin-bottom: 20px;

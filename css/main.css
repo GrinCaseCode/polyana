@@ -1358,7 +1358,7 @@ input[type=number]
 .sandwich.active .sw-footer {
 	top: 7px;
 	transform: rotate(-45deg); 
-}
+} 
 
 /*hovers*/
 @media (hover: hover) {
