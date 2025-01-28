@@ -1726,7 +1726,8 @@
     .sorting-catalog__item {
         width: 48%;
     }
-    .sorting-catalog .jq-selectbox__dropdown li, .sorting-catalog .jq-selectbox__select-text {
+    .sorting-catalog .jq-selectbox__dropdown li, 
+    .sorting-catalog .jq-selectbox__select-text {
         font-size: 13px;
     }
     .page-personal {
