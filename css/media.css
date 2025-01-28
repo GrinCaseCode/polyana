@@ -1730,7 +1730,7 @@
         font-size: 13px;
     }
     .page-personal {
-        min-height: calc(100vh - 255px);
+        min-height: calc(100vh - 200px);
     }
 }
 
