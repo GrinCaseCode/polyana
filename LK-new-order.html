@@ -234,6 +234,7 @@
 									<ul>
 										<li><a href="#modal-login" class="fancybox">Вход</a></li>
 										<li><a href="#modal-registration" class="fancybox">Регистрация</a></li>
+										<li><a href="#">Выход</a></li>
 									</ul>
 								</div>
 							</div>
@@ -271,141 +272,137 @@
 			<div class="menu-overlay"></div>
 		</header>
 		
-		<section class="billbord-about billbord-about_dealers">
-			<div class="billbord-about__content">
-				<ul class="breadcrumbs">
-					<li><a href="#">Главная</a></li>
-					<li>Как стать дилером?</li>
-				</ul>
-				<h1 class="title-big">как стать дилером?</h1>
-				<div class="descr-about">Компания «Поляна» приглашает к сотрудничеству дилеров по всей России! </div>
-				<div class="text-about">
-					<p>Мы предлагаем выгодные условия партнерства, высококачественные сельскохозяйственные запчасти и поддержку на всех этапах сотрудничества.</p>
-				</div>
-			</div>
-		</section>
-
-		<section class="advantages-dealers">
+		<section class="page-personal">
 			<div class="container">
-				<h2 class="title-section">Почему выгодно стать нашим дилером?</h2>
-				<div class="row row_advantages">
-					<div class="col-lg-6 col-md-6">
-						<div class="item-advantage">
-							<div class="item-advantage__head">
-								<div class="icon-page">
-									<img src="img/avd_dealers1.svg" alt="alt">
-								</div>
-								<div class="title-small">Широкий ассортимент продукции</div>
-							</div>
-							<p>У нас есть всё, что нужно для сельхозтехники: от запчастей для тракторов до комплектующих для комбайнов</p>
+				<h1 class="title-section">Мой профиль</h1>
+				<div class="table-page">
+					<table>
+						<thead>
+							<tr>
+								<th>№</th>
+								<th>Номер заказа</th>
+								<th>Товар</th>
+								<th>Цена</th>
+								<th>Количество</th>
+								<th>Сумма</th>
+								<th>Дата отгрузки</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><div class="status-td status-td_sent"></div><strong>1.</strong></td>
+								<td>
+									<div class="td-wrap">
+										<div class="checkbox-main">
+											<label>
+												<input type="checkbox"/>
+												<span></span>
+											</label>
+										</div>
+										<strong>654535677</strong>
+									</div>
+								</td>
+								<td><a href="#" class="title-td">Ремень 8PK 1790 </a></td>
+								<td>100 634</td>
+								<td>
+									<div class="quantity">
+										<input type="number" min="1" step="1" value="2">
+										<div class="quantity-button quantity-up"></div>
+										<div class="quantity-button quantity-down"></div>
+									</div>
+								</td>
+								<td><strong class="price-td">201 268 Р</strong></td>
+								<td>20.01.2025</td>
+								<td class="td-right"><div class="remove-td"><i class="far fa-trash"></i></div></td>
+							</tr>
+							<tr>
+								<td><div class="status-td status-td_paid"></div><strong>2.</strong></td>
+								<td>
+									<div class="td-wrap">
+										<div class="checkbox-main">
+											<label>
+												<input type="checkbox"/>
+												<span></span>
+											</label>
+										</div>
+										<strong>654535678</strong>
+									</div>
+								</td>
+								<td><a href="#" class="title-td">Ремень 6HB 3615 La Toyopower</a></td>
+								<td>16 971</td>
+								<td>
+									<div class="quantity">
+										<input type="number" min="1" step="1" value="2">
+										<div class="quantity-button quantity-up"></div>
+										<div class="quantity-button quantity-down"></div>
+									</div>
+								</td>
+								<td><strong class="price-td">33 942 Р</strong></td>
+								<td>20.01.2025</td>
+								<td class="td-right"><div class="remove-td"><i class="far fa-trash"></i></div></td>
+							</tr>
+							<tr>
+								<td><div class="status-td status-td_wait"></div><strong>3.</strong></td>
+								<td>
+									<div class="td-wrap">
+										<div class="checkbox-main">
+											<label>
+												<input type="checkbox"/>
+												<span></span>
+											</label>
+										</div>
+										<strong>654535679</strong>
+									</div>
+								</td>
+								<td><a href="#" class="title-td">Ремень 8PK 1790 </a></td>
+								<td>100 634</td>
+								<td>
+									<div class="quantity">
+										<input type="number" min="1" step="1" value="2">
+										<div class="quantity-button quantity-up"></div>
+										<div class="quantity-button quantity-down"></div>
+									</div>
+								</td>
+								<td><strong class="price-td">201 268 Р</strong></td>
+								<td>20.01.2025</td>
+								<td class="td-right"><div class="remove-td"><i class="far fa-trash"></i></div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="bottom-new-order">
+					<button class="btn-main btn-main_border">Добавить товар <i class="fal fa-plus"></i></button>
+				</div>
+				<div class="actions-new-order">
+					<div class="delivery-order">
+						<div class="checkbox-main checkbox-main_page">
+							<label>
+								<input type="radio" name="delivery" checked/>
+								<span>Требуется доставка <span>при заказе от 15 000 Р доставка бесплатно</span></span>
+							</label>
+						</div>
+						<div class="checkbox-main checkbox-main_page">
+							<label>
+								<input type="radio" name="delivery"/>
+								<span>Самовывоз</span>
+							</label>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6">
-						<div class="item-advantage">
-							<div class="item-advantage__head">
-								<div class="icon-page">
-									<img src="img/avd_about2.svg" alt="alt">
-								</div>
-								<div class="title-small">Персональный менеджер</div>
-							</div>
-							<p>Каждый дилер получает персонального менеджера, который помогает с подбором товара, оформлением заказов и решением любых вопросов.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="item-advantage">
-							<div class="item-advantage__head">
-								<div class="icon-page">
-									<img src="img/avd_about3.svg" alt="alt">
-								</div>
-								<div class="title-small">Конкурентные цены и гибкие условия</div>
-							</div>
-							<p>Мы предлагаем специальные условия для дилеров, включая скидки и бонусы</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="item-advantage">
-							<div class="item-advantage__head">
-								<div class="icon-page">
-									<img src="img/avd_about4.svg" alt="alt">
-								</div>
-								<div class="title-small">Надежность и репутация</div>
-							</div>
-							<p>Мы — проверенный партнер с многолетним опытом работы на рынке</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="item-advantage">
-							<div class="item-advantage__head">
-								<div class="icon-page">
-									<img src="img/avd_about4.svg" alt="alt">
-								</div>
-								<div class="title-small">Собственные склады </div>
-							</div>
-							<p>Быстрая отгрузка и гарантия наличия товара</p>
+					<div class="comment-wrap">
+						<div class="item-form">
+							<div class="item-form__title">Комментарий</div>
+							<textarea placeholder="Текст"></textarea>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<section class="steps-dealers">
-			<div class="container">
-				<div class="steps-dealers__head">
-					<h2 class="title-section">Как стать дилером?</h2>
-					<div class="title-small">Чтобы стать частью нашей дилерской сети, вам необходимо:</div>
-				</div>
-				<div class="slider-accordion">
-					<div class="item-accordion active">
-						<div class="item-accordion__head">
-							<div class="item-accordion__number">1</div>
-							<div class="title-small">шаг</div>
+				<div class="total-order-wrap">
+					<div class="total-order">
+						<div class="total-order__line">
+							<div class="total-order__title">Итого:</div>
+							<div class="total-order__price">436 478 Р</div>
 						</div>
-						<div class="item-accordion__content">
-							<div class="item-accordion__inner">
-								<div class="title-small">Заполнить заявку на сайте</div>
-								<p>Для заказа на сайте необходимо <a href="#">зарегистрироваться</a>. В процессе регистрации будет происходить проверка реквизитов, чтобы убедиться в достоверности данных пользователя. По итогу проверки Вам на почту придет сообщение о подтверждении данных.</p>
-								<p>Если Вы раннее были зарегистрированы - <a href="#">войдите</a> в кабинет уже по существующим доступам.</p>
-							</div>
-						</div>
-					</div>
-					<div class="item-accordion">
-						<div class="item-accordion__head">
-							<div class="item-accordion__number">2</div>
-							<div class="title-small">шаг</div>
-						</div>
-						<div class="item-accordion__content">
-							<div class="item-accordion__inner">
-								<div class="title-small">Зарегистрируйтесь в личном кабинете</div>
-								Для заказа на сайте необходимо <a href="#">зарегистрироваться</a>. В процессе регистрации будет происходить проверка реквизитов, чтобы убедиться в достоверности данных пользователя. По итогу проверки Вам на почту придет сообщение о подтверждении данных.
-								Если Вы раннее были зарегистрированы - <a href="#">войдите</a> в кабинет уже по существующим доступам.
-							</div>
-						</div>
-					</div>
-					<div class="item-accordion">
-						<div class="item-accordion__head">
-							<div class="item-accordion__number">3</div>
-							<div class="title-small">шаг</div>
-						</div>
-						<div class="item-accordion__content">
-							<div class="item-accordion__inner">
-								<div class="title-small">Зарегистрируйтесь в личном кабинете</div>
-								Для заказа на сайте необходимо <a href="#">зарегистрироваться</a>. В процессе регистрации будет происходить проверка реквизитов, чтобы убедиться в достоверности данных пользователя. По итогу проверки Вам на почту придет сообщение о подтверждении данных.
-								Если Вы раннее были зарегистрированы - <a href="#">войдите</a> в кабинет уже по существующим доступам.
-							</div>
-						</div>
-					</div>
-					<div class="item-accordion">
-						<div class="item-accordion__head">
-							<div class="item-accordion__number">4</div>
-							<div class="title-small">шаг</div>
-						</div>
-						<div class="item-accordion__content">
-							<div class="item-accordion__inner">
-								<div class="title-small">Зарегистрируйтесь в личном кабинете</div>
-								Для заказа на сайте необходимо <a href="#">зарегистрироваться</a>. В процессе регистрации будет происходить проверка реквизитов, чтобы убедиться в достоверности данных пользователя. По итогу проверки Вам на почту придет сообщение о подтверждении данных.
-								Если Вы раннее были зарегистрированы - <a href="#">войдите</a> в кабинет уже по существующим доступам.
-							</div>
-						</div>
+						<button class="btn-main btn-main_block">Оформить заказ и получить счет</button>
 					</div>
 				</div>
 			</div>
