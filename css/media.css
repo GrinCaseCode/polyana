@@ -1729,6 +1729,9 @@
     .sorting-catalog .jq-selectbox__dropdown li, .sorting-catalog .jq-selectbox__select-text {
         font-size: 13px;
     }
+    .page-personal {
+        min-height: calc(100vh - 255px);
+    }
 }
 
 /* Small Devices, Tablets */
