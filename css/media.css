@@ -1696,7 +1696,7 @@
         font-size: 16px;
     }
     .page-personal .sorting-catalog {
-        gap: 15px 20px;
+        gap: 15px 8px;
         margin-bottom: 31px;
         flex-wrap: wrap;
     }
@@ -1722,6 +1722,12 @@
     }
     .delivery-order {
         margin-top: 0;
+    }
+    .sorting-catalog__item {
+        width: 48%;
+    }
+    .sorting-catalog .jq-selectbox__dropdown li, .sorting-catalog .jq-selectbox__select-text {
+        font-size: 13px;
     }
 }
 
